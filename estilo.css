@@ -853,7 +853,7 @@ footer{
 }
 
 
-@media (max-width: 344px) {
+@media (max-width: 360px) {
     header {
         height: auto; /* Permite que el header ajuste su altura automáticamente */
         background-size: cover; /* Asegura que la imagen de fondo se ajuste correctamente */
@@ -1129,6 +1129,11 @@ footer{
     }
 }
 
+
+
+
+
+
 @media only screen and (min-width: 520px) and (max-width: 1080px) {
 
     header {
@@ -1339,11 +1344,11 @@ footer{
     }
 
     .testimony__img {
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
         border-radius: 50%;
         object-fit: cover;
-        object-position: 40% 60%;
+        object-position: 40% 50%;
     }
 
     .testimony__texts {
