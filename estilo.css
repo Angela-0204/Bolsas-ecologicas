@@ -1048,7 +1048,7 @@ footer{
 
     .testimony__container{
         display: grid;
-        grid-template-columns: 20px 1fr 20px;
+        grid-template-columns: 23px 1fr 23px;
         gap: 1em;
         align-items: center;
     }
@@ -1073,11 +1073,11 @@ footer{
     }
     
     .testimony__img{
-        width: 120px;
-        height: 120px;
+        width: 98px;
+        height: 98px;
         border-radius: 50%;
         object-fit: cover;
-        object-position: 40% 60%;
+        object-position: 20% 50%;
     }
     
     .testimony__texts{
@@ -1090,7 +1090,7 @@ footer{
     .testimony__texts h2{
      
         text-align: center;
-        font-size: 18px;
+        font-size: 17px;
         color: #000000;
     
     }
@@ -1114,7 +1114,7 @@ footer{
     }
     
     .testimony__arrow{
-        width: 70%;
+        width: 78%;
         cursor: pointer;
     }  
 
