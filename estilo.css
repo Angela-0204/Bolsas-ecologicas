@@ -1129,7 +1129,7 @@ footer{
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1080px) {
+@media only screen and (min-width: 520px) and (max-width: 1080px) {
 
     header {
         height: auto; /* Permite que el header ajuste su altura automáticamente */
@@ -1315,7 +1315,7 @@ footer{
 
     .testimony__container {
         display: grid;
-        grid-template-columns: 30px 1fr 30px;
+        grid-template-columns: 15px 1fr 15px;
         gap: 1em;
         align-items: center;
     }
@@ -1339,8 +1339,8 @@ footer{
     }
 
     .testimony__img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
         object-fit: cover;
         object-position: 40% 60%;
