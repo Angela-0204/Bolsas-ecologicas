@@ -1,4 +1,4 @@
-<script>
+
 document.addEventListener("DOMContentLoaded", function () {
     const testimonies = document.querySelectorAll(".testimony__body");
     let currentTestimonyIndex = 0;
@@ -15,4 +15,4 @@ document.addEventListener("DOMContentLoaded", function () {
         testimonies[currentTestimonyIndex].classList.add("testimony__body--show");
     });
 });
-</script>
+
